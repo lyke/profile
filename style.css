@@ -1,0 +1,95 @@
+@media (max-width: 540px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+}
+body{
+  text-align: center;
+}
+
+h1{
+  color:rgb(78, 92, 219);
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+
+}
+
+h2{
+  color: rgb(51, 84, 247);
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+}
+
+p{
+  color: rgb(65, 65, 65);
+  font-size: 20px;
+}
+
+img{
+  width: 150px;
+  border-radius: 30%;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0;
+}
+
+i{
+  font-size: 50px;
+  font-size: 50px;
+  padding: 25px;
+}
+
+a{
+  color : rgba(32, 112, 119, 0.7);
+}
+
+a:hover{
+  color: rgba(50, 50, 50, 0.5);
+}
+
+div{
+  border: 1px dotted rgb(20, 20, 20);
+  margin: 20px auto;
+  width: 400px;
+  padding: 40px;
+  background-color: azure;
+  box-shadow: 5px 5px 10px rgb(60, 60, 70);
+}
+
+#header_div{
+  background-color: cadetblue;
+  background-image: url(images/blue_background.jpeg);
+  background-size: cover;
+}
+
+#button{
+  margin: 20 auto;
+  padding: 10px 35px;
+  border-radius: 4px;
+  color: white;
+  background-color: rgba(32, 112, 119, 0.7);
+}
+
+#button:hover{
+  background-color: rgba(32, 112, 119, 0.4);
+}
